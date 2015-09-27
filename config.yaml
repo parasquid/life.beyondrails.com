@@ -11,6 +11,8 @@ permalinks:
   post: "/blog/:year/:month/:day/:title/"
 theme: hyde-x
 params:
+  home: "Blog Index"
+
   # Used when a given page doesn't set its own.
   defaultDescription: ""
   defaultKeywords: ""

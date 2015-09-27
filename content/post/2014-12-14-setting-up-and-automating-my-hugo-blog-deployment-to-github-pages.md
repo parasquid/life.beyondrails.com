@@ -3,9 +3,9 @@ date: 2014-12-14T07:16:31-08:00
 title: Setting Up and Automating my Hugo Blog Deployment to Github Pages
 categories: [meta]
 ---
-> Work In Progress
+> Update
 
-> I'm still in the middle of writing this article, and I probably will be always updating this.
+> This is largely obsolete. I have setup a new [process]({{< relref "2015-09-26-moving-hosts-from-github-pages-to-amazon-s3.md" >}}) to deploy to Amazon S3 amd I recommend it over Github Pages.
 
 I'm currently moving my blog posts (and collecting all my blog entries from various blogging platforms) and putting them into Hugo. In case you're wondering how I've set mine up, here's a guide of what I've done.
 
@@ -14,9 +14,10 @@ I'm currently moving my blog posts (and collecting all my blog entries from vari
 ## Choosing the hosting platform
 
 ## Setting up the blog
-sudo aptitude install golang
-sudo aptitude install -y mercurial
-go get -v github.com/spf13/hugo
+
+* `sudo aptitude install golang`
+* `sudo aptitude install -y mercurial`
+* `go get -v github.com/spf13/hugo`
 
 ## Setting up the github pages
 There's a really cool guide over at the official [Hugo documentation](http://gohugo.io/tutorials/github_pages_blog/) and I advise everyone to check it out.
@@ -64,7 +65,7 @@ Again I refered back to the hugo documentation on [setting up hugo for guthub ho
 
 My workflow however is unlike the any of the trhee recommended workflows (more like a hybrid):
 
-- I do use Github pages, but as a Personal/Organization page. That means my repository is at parasquid/parasquid.github.io
+- I do use Github pages, but as a Personal/Organization page. That means my repository is at `parasquid/parasquid.github.io`
 - Instead of two repositories, I prefer to have a single repository containing both the source files and the cooked files.
 - Because I'm using Github Pages for Personal/Organization I need to have the cooked pages inside the master branch. I had to modify the deployment script a little bit to ensure that my sources remain in the source branch, the subtree is located at the master branch (prefixed with public), and that all the pushing and pulling are seamless so it's all automatic (and there's no need for manual merging).
 
