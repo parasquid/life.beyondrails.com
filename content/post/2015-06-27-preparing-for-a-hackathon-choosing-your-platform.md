@@ -1,6 +1,6 @@
 ---
 categories: [software, hackathon]
-date: 2015-09-27T13:57:41+08:00
+date: 2015-06-27T13:57:41+08:00
 description: ""
 keywords: []
 title: "Preparing for a Hackathon: Choosing Your Platform"
