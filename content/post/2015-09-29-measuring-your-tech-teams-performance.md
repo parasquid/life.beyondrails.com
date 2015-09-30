@@ -35,15 +35,21 @@ The correct mindset is to approach this with the intention of having the team im
 
 There really are only two important things you want to measure in your team: effectiveness and efficiency.
 
+**needs more work**
+
 ### Effectiveness
 is the raw output,
+
+ **needs more work**
 
 ### efficiency
 
 is a multiplier. It does not contribute to the results directly, but it multiplies whatever potential output there is.
 
+**needs more work**
+
 ### Effectiveness &times; Efficiency = Results
-You want to increase both; increasing just one or the other is like a multiplication equation. 2 x 10 = 20 and 2 x 11 = 22 but 3 x 100 = 300
+You want to increase both; increasing just one or the other is like a multiplication equation. 2 x 10 = 20 and 2 x 11 = 22 but 3 x 100 = 300 ** needs more work **
 
 ## What NOT to Measure
 
@@ -61,6 +67,8 @@ Measure results, not activity. That way, your team can exercise their creativity
 
 It is extremely seductive to think that by assigning numbers to particular activities, you get to manipulate the results like levers on a control panel.
 
+**needs more work**
+
 this is a humanistic approach, so hard numbers won't be able to capture everything immediately. but as you go along with the measurements you'll eventually end up adding more perspectives/sides of the cube to more completely see a more holistic picture
 
 ### Ask them what have they done, what are they going to do, and is there anything that's preventing them from doing it
@@ -71,6 +79,8 @@ This is a measure of **Effectiveness**. These [three questions][2] are mostly us
   * find out how much progress has been made on a particular area
   * improve communication with each other
   * nip possible problems in the bud
+
+**needs more work**
 
 the danger is this meeting being a status update where the boss starts asking questions on why a particular workset is not yet done. again this is not for your benefit but for the team's so they know what each other is working on
 
@@ -97,10 +107,13 @@ This is a measure of Results.
 
 Your team are the domain experts and are the best people to tell you how long a particular feature will take.
 
+**needs more work**
 
 ## Conclusion
 
 You might notice you have to ask a lot of things instead of objectively measuring things. This requires a very mature team that you can trust. You might need to work on trust issues first before you can even start meausring performance.
+
+**needs more work**
 
 you can only model what you undersstand. assigning numbers is modeling.
 
