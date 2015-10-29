@@ -196,9 +196,9 @@ payments = PaymentsQuery.all.includes(:order => [:customer, :tags])
 count = payments.count
 
 progress = ProgressBar.create(
- title: 'Payment',
- total: nil,
- format: '%a |%b>>%i| %p%% %t %c of %C %e'
+  title: 'Payment',
+  total: nil,
+  format: '%a |%b>>%i| %p%% %t %c of %C %e'
 )
 
 filename = "report.csv"
