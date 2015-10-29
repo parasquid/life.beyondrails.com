@@ -137,7 +137,7 @@ In other words, there is no need to load up your objects with functionality that
 
 ### If it ain't broke, don't fix it (yet)
 
-Of course, there are even better ways to refactor this method. You can extract out the reporting logic and build an assembler class that takes an input (`payments`) an output (an `email` object) and the logic to create the contents (the reprot generator than can maybe output an `IO` object or something that responds to `result).
+Of course, there are even better ways to refactor this method. You can extract out the reporting logic and build an assembler class that takes an input (`payments`) an output (an `email` object) and the logic to create the contents (the report generator than can maybe output an `IO` object or something that responds to `#result`).
 
 However, as I've mentioned before this is a legacy app. This piece of code had been running in production for quite some time now without any problems. This is one of the very rare times when finance asks for a change in the running reports, and it's not even a change in logic -- merely an additional way the results are delivered (regular intervals vs on-demand).
 
