@@ -214,6 +214,11 @@ uploader.email(["parasquid""], filename, File.open(filename))
 
 Not much has changed, but their flexibility is worlds apart, and it makes all the difference.
 
+# TL;DR
+
+* Use dependency injection and keyword arguments with default values to maintain the same signature to older clients, but allow you to change behavior as needed. In this case, I don't want to call `SuckerPunch` logger in my rake task.
+* Use `yield` and `block_given?` to allow client code to pass in custom blocks, and expose objects to the block depending on your intentions. In this case, I want to use a progress bar and also inspect the currently iterated on object.
+
 [1]:http://threevirtues.com/
 [2]:http://www.martinfowler.com/articles/injection.html
 [3]:https://bugs.ruby-lang.org/issues/5474
