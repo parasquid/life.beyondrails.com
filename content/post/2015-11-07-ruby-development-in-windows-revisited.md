@@ -25,3 +25,5 @@ I've improved on the whole setup since, and I thought it's time to share the who
 It's probably a bit misleading to say I do my ruby development _completely_ in Windows. It's not because of the graphical user interface or the hardware support; I think Windows 10 had really been a great improvement over the past Windows versions. Support for peripherals (like graphic cards, multi-monitor setups, or just [recently](link to follow soon on hackworkplay.com) 4k TV/monitors) is simply heaps better than that of Ubuntu.
 
 Rather, it's because the Windows CLI is absolutely horrible. I've looked into some projects that attempt to alleviate the pain of the Windows CLI like [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell) or [Console2](Console2) but for me, nothing still beats the power of a unix tty.
+
+The easiest way to combine the two worlds is to run Ubuntu inside a virtual machine, and expose the tools I needed to Windows. I get the hardware compatibility and peripheral support of Windows, while getting the workflow efficiencies of unix.
