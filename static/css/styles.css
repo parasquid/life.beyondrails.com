@@ -7,3 +7,7 @@ pre code {
     max-width: 45rem;
   }
 }
+
+figure img {
+  margin: 0 auto;
+}
