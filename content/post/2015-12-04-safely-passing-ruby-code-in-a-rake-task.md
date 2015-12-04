@@ -60,3 +60,20 @@ I lied; there is no perfect way have a third party pass in a string and safely `
 
 * Validate your string parameters that are to be eval'd or executed.
 * Don't turn off the code climate check; instead look for ways to approach what you want to do in a different way.
+
+# Updates
+
+[Looi](https://www.facebook.com/ferngyi) made a good point on sidestepping the regex altogether:
+
+```
+def validated_period(args)
+  num, period = args.split('.')
+  allowed_periods = %w(second seconds hour hours day days month months)
+
+  if allowed_periods.include?(period) && num.to_i > 0
+    num.to_i.public_send(period)
+  end
+end
+```
+
+[Espen](https://www.facebook.com/antonsen.espen) also makes a great point that the regex isn't an issue, but the eval is and suggested to instead use something like the Chronic library or something like `.advance(period.to_sym => i)`.
