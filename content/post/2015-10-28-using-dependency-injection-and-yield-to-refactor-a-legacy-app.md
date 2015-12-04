@@ -2,15 +2,15 @@
 categories: [til, rails, refactoring, dependency injection]
 date: 2015-10-28
 keywords: []
-title: Using Dependency Injection and `yield` to Refactor a Legacy App
+title: Using Dependency Injection and yield to Refactor a Legacy App
 ---
 I had to create an automated report for finance and accounting that will send particular columns and their data in a csv once a month.
 
-Being the [lazy][1] developer that I am, I tried looking for code that already existed. I was planning to wrap up that code in a rake task and use [whenever](https://github.com/javan/whenever) to schedule a cron job to send the report monthly.
+Being the [lazy](http://threevirtues.com/) developer that I am, I tried looking for code that already existed. I was planning to wrap up that code in a rake task and use [whenever](https://github.com/javan/whenever) to schedule a cron job to send the report monthly.
 
 While I was able to find pre-existing code that did what finance wanted (I checked with them as well if the output showed what they needed), the code itself wasn't easily convertible to a rake task.
 
-<!-- more -->
+<!--more-->
 
 ### Original Code
 
@@ -219,7 +219,7 @@ Not much has changed, but their flexibility is worlds apart, and it makes all th
 * Use dependency injection and keyword arguments with default values to maintain the same signature to older clients, but allow you to change behavior as needed. In this case, I don't want to call `SuckerPunch` logger in my rake task.
 * Use `yield` and `block_given?` to allow client code to pass in custom blocks, and expose objects to the block depending on your intentions. In this case, I want to use a progress bar and also inspect the currently iterated on object.
 
-[1]:http://threevirtues.com/
+
 [2]:http://www.martinfowler.com/articles/injection.html
 [3]:https://bugs.ruby-lang.org/issues/5474
 [4]:https://www.youtube.com/watch?v=HQXVKHoUQxY
