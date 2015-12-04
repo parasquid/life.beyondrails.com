@@ -115,6 +115,10 @@ Chosen for minimalist reasons (except for gnome-terminal, which was chosen becau
 * rox-filer
 * eog (eye of gnome)
 
+Additional quality of life packages
+* sublime-text
+* gnome-tweak-tool
+
 ### X11 forwarding
 
 Here comes the magic where I get seamless interaction between the VM applications, and the host's native applications. In a nutshell, I run an XServer in Windows (currently Cygwin, but XMing will also do) and have it display the application that's running inside the VM.
