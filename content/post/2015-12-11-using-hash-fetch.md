@@ -96,17 +96,17 @@ prog.rb:2:in `fetch': key not found (KeyError)
  from prog.rb:2
  ```
 
- The last example is what I gain the most benefit from: it clarifies exactly where I went wrong. In the first code example I gave, the issue was I was using `shipment_address` instead of `shipping_address` and since they both **looked almost the same** I initially thought that the value was indeed `nil`.
+The last example is what I gain the most benefit from: it clarifies exactly where I went wrong. In the first code example I gave, the issue was I was using `shipment_address` instead of `shipping_address` and since they both **looked almost the same** I initially thought that the value was indeed `nil`.
 
- By using `Hash#fetch` I completely sidestep the problem of confusing error messages and get a clearer one that tells me the key I'm trying to access does not actually exist.
+By using `Hash#fetch` I completely sidestep the problem of confusing error messages and get a clearer one that tells me the key I'm trying to access does not actually exist.
 
- # FAQ
+# FAQ
 
- > You said you're doing TDD, bu I can see that the typo is in the middle of the test! If you're really doing TDD then you should have caught the bug at the last line!!
+> You said you're doing TDD, bu I can see that the typo is in the middle of the test! If you're really doing TDD then you should have caught the bug at the last line!!
 
  It's true, I caught the bug at the last line (and catching the typo was a lot easier because I knew exactly where to look). You'll notice that the hash keys are alphabetically arranged; I moved the typo'd line in the middle as an artistic decision. As Mark Twain famously said: never let the truth get in the way of a good story. :P
 
- > How can this be used to avoid `&&` like this:
+> How can this be used to avoid `&&` like this:
 
  ```ruby
 hash = {foo:{bar: {baz: "hello world"}}}
