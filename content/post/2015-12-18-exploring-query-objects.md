@@ -3,7 +3,7 @@ date: 2015-12-18
 title: Exploring Query Objects
 categories: [til]
 ---
-A [CodeClimate Article](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/) gave a number of ways to decompose fat ActiveRecord models, and one of them was: Extract Query Objects. I've been trying to explore and get myself familiar with a good standard of how to implement Qeuery Objects, and here is my take.
+A [CodeClimate Article](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/) gave a number of ways to decompose fat ActiveRecord models, and one of them was: Extract Query Objects. I've been trying to explore and get myself familiar with a good standard of how to implement Query Objects, and here is my take.
 
 I'll be trying out a new format in these articles. I'll be using something of a Q/A style similar to [Socratic Questioning](https://en.wikipedia.org/wiki/Socratic_questioning)
 
