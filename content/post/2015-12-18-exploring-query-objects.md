@@ -234,4 +234,4 @@ Why don't you just use scopes? They have almost the exact syntax that you're pro
 : Even if I don't appeal to higher authority by mentioning SRP, separating the queries from the `ActiveRecord` model is still a good idea. It just makes the whole thing easier to work with because I don't have to scroll through a huge file with the scopes on the first half and the business logic on the second half.
 <hr />
 
-There you have it. I'm still exploring query objects and figuring out a more generlized solution that I can implement in all my projects. Feedback and comments are highly appreciated!
+There you have it. I'm still exploring query objects and figuring out a more generalized solution that I can implement in all my projects. Feedback and comments are highly appreciated!
