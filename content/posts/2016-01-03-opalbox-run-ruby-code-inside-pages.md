@@ -42,7 +42,7 @@ The `height` is first set to `0` because some browsers get confused with unconve
 
 [Shortcodes in Hugo](https://gohugo.io/extras/shortcodes/) (the blog engine this site is running on) is quite simple to make. It's just a `text` snippet that you can call within your article. For example, the above `OpalBox` looks like this:
 
-<pre>
+<pre class="dark">
 &#123;&#123;&lt; rubycode &gt;&#125;&#125;
 # this is ruby code
 # it is inside a text area so you can edit it and play around with it
@@ -59,7 +59,7 @@ puts square(256)
 
 While the shortcode file contents (`rubycode.html`) look like this:
 
-<pre>
+<pre class="dark">
 &lt;div class="ruby-code"&gt;&#123;&#123; .Inner &#125;&#125;&lt;/div&gt;
 </pre>
 

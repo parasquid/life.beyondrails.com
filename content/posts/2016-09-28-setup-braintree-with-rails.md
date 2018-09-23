@@ -25,7 +25,7 @@ end
 
 We'll then create a simple form that adds placeholders for the credit card number, cvv, and expiration date, as well as a button to submit the form.
 
-``` erb
+``` ruby
 <!-- views/home/index.html.erb -->
 <% if flash[:notice] %>
   <div class="notice"><%= flash[:notice] %></div>

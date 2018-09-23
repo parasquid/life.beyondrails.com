@@ -7,6 +7,7 @@ categories: [management]
 Paul Graham's (of YCombinator fame) essay on the difference between the Maker's Schedule and the Manager's Schedule is a timeless piece of advice that is sadly not as well known as it should be. The essay provides an interesting, if not logical reason behind why programmer's skip meetings called by managers, while managers often tend to interrupt programmers.
 
 Here are some of the important points in his essay:
+<!--more-->
 
 - Bosses often run on the manager's schedule
 - The manager's schedule is granular to an hour (or half an hour)

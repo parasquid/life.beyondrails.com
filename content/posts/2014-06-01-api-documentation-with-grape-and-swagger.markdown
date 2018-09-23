@@ -36,8 +36,8 @@ The self-documenting ability of Grape with Swagger actually consists of three se
 
 There was a lightning talk at Red Dot Ruby Conf 2014 as well:
 
-<div class="youtube-player">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNXa-fjTroE" frameborder="0" allowfullscreen></iframe>
+<div class="iframe-container-16by9">
+<iframe class="responsive" src="https://www.youtube.com/embed/lNXa-fjTroE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ----------------
@@ -52,7 +52,7 @@ The [grape-swagger project](https://github.com/tim-vandecasteele/grape-swagger) 
 
 ### Swagger UI ###
 
-![Swagger UI Screenshot](https://raw.githubusercontent.com/tim-vandecasteele/grape-swagger/master/test/splines.png)
+![Swagger UI Screenshot](https://swagger.io/swagger/media/Images/Tools/Opensource/Swagger_UI.png?ext=.png)
 
 After making sure that Grape has a swagger json endpoint, [Swagger UI](https://github.com/wordnik/swagger-ui) gives you two awesome abilities:
 

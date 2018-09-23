@@ -4,8 +4,9 @@ layoutdir: "layouts"
 disqusShortname: "parasquid"
 taxonomies:
   category: "categories"
-baseurl: "https://life.beyondrails.com"
+baseurl: "https://life.beyondrails.com/"
 title: "Life Beyond Rails"
+author: "parasquid"
 MetaDataFormat: "yaml"
 permalinks:
   post: "/blog/:year/:month/:day/:title/"
