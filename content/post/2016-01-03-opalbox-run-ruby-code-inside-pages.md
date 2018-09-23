@@ -27,7 +27,7 @@ puts square(256)
 # click on run below to execute the code
 {{< /rubycode >}}
 
-I've edited one of my [past articles]({{< relref "post/2014-03-04-ruby-and-blocks.markdown" >}}) to use `OpalBox` if you're interested in how it looks like as a method for instruction.
+I've edited one of my [past articles]({{<ref "/post/2014-03-04-ruby-and-blocks.markdown">}}) to use `OpalBox` if you're interested in how it looks like as a method for instruction.
 
 Here's the javascript snippet that resizes the `textarea` to fit its content:
 ``` javascript
@@ -83,9 +83,3 @@ $(function() {
 
 * `textarea` disables syntax highlighting.
 * Long ruby code is not practical because it looks like a wall of text.
-
-## References:
-
-Initial change to the article to include opalbox: https://github.com/parasquid/life.beyondrails.com/commit/996234fffc57a8e16ce7015abc00e3a374f00343
-
-Changing the divs into a shortcode: https://github.com/parasquid/life.beyondrails.com/commit/20fe9761d285c448498ce5a1faef5f70edceed5a
