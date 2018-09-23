@@ -4,7 +4,9 @@ date: 2016-04-14T20:27:59+08:00
 title: A Strange Case of Inheritance Behavior
 ---
 While working some code to work with the Zuora SOAP API, I got bit by a strange case of inheritance behavior. It would seem that this is related to what `self` is bound to during the execution of the statement. Here it is, distilled to its essentials:
+
 <!--more-->
+
 {{% opalbox %}}
 
 {{< rubycode >}}

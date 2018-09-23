@@ -29,10 +29,6 @@ params:
   # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
   themeColor: "theme-base-0b"
 
-  # Select a syntax highight.
-  # Check the static/css/highlight directory for options.
-  highlight: "sunburst"
-
   # Displays under the author name in the sidebar, keep it short.
   description: "Codesmithing by day. Airsculpting by night."
 
@@ -45,7 +41,8 @@ params:
   # These should be full URLs.
   github: "https://github.com/parasquid"
   linkedin: "https://www.linkedin.com/in/parasquid"
-  googleplus: "https://plus.google.com/u/1/+TristanGomez/posts"
+  # googleplus: "https://plus.google.com/u/1/+TristanGomez/posts"
   facebook: "https://www.facebook.com/parasquid"
   twitter: "https://twitter.com/parasquid"
+  rss: true
 ---
