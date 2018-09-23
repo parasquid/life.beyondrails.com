@@ -9,7 +9,7 @@ title: "Life Beyond Rails"
 author: "parasquid"
 MetaDataFormat: "yaml"
 permalinks:
-  post: "/blog/:year/:month/:day/:title/"
+  posts: "/blog/:year/:month/:day/:title/"
   zen: "/zen/:title"
 theme: "hyde"
 pygmentsCodeFences: true
