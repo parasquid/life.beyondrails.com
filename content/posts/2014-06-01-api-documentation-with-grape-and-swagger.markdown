@@ -37,7 +37,7 @@ The self-documenting ability of Grape with Swagger actually consists of three se
 There was a lightning talk at Red Dot Ruby Conf 2014 as well:
 
 <div class="youtube-player">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/lNXa-fjTroE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lNXa-fjTroE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ----------------
