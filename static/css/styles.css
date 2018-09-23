@@ -1,4 +1,6 @@
-pre code {
+pre code,
+.opbox .opbox-code,
+.opbox .opbox-output .opbox-result {
   font-size: 80%;
 }
 

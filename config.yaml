@@ -11,6 +11,7 @@ permalinks:
   post: "/blog/:year/:month/:day/:title/"
   zen: "/zen/:title"
 theme: "hyde"
+pygmentsCodeFences: true
 menu:
   main:
     - Name: Zen

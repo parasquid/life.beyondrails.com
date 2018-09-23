@@ -50,16 +50,18 @@ puts template % {programming_paradigm: "Object Oriented", answer: "Inheritance"}
 **Note:** Sadly, OpalBox doesn't seem to work well with this particular usage of `String#%` since [Opal 0.7.1 has a bug](https://github.com/opal/opal/issues/678) where it doesn't properly interpolate named parameters (I've already [reported this](https://github.com/Angelmmiguel/opalbox-jquery/issues/3) to the opalbox author). I will update this article whenever the issues have been ironed out.
 
 Runnning the code in `IRB` works however:
-```
+
+```ruby
 puts template % {programming_paradigm: "Object Oriented", answer: "Inheritance"}
-Q: What's the Object Oriented way to become wealthy?
-A: Inheritance
+# Q: What's the Object Oriented way to become wealthy?
+# A: Inheritance
 ```
 
 The method is also written in C (at least for MRI) so it's expected to be fast.
-```
+
+```ruby
 puts Benchmark.measure { "Hello %s" % "World" * 6_000_000}
-  0.010000   0.040000   0.050000 (  0.051013)
+#  0.010000   0.040000   0.050000 (  0.051013)
 ```
 
 In the end the code for the feature I was working on looked like this:
