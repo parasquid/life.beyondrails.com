@@ -1,6 +1,7 @@
 ---
 date: 2018-01-02T09:16:23+08:00
 title: Vue on Rails
+categories: ["presentations"]
 ---
 A gentle introduction to modern client-side web frameworks for Rails developers.
 
