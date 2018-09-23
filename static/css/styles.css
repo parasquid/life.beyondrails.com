@@ -1,7 +1,14 @@
-pre code,
-.opbox .opbox-code,
-.opbox .opbox-output .opbox-result {
+pre code {
   font-size: 80%;
+}
+
+.opbox-header,
+.opbox .opbox-code {
+  font-size: 70%;
+}
+
+.opbox .opbox-output .opbox-result {
+  font-family: monospace;
 }
 
 @media (min-width: 48em) {
@@ -14,23 +21,11 @@ figure img {
   margin: 0 auto;
 }
 
-.opbox .opbox-code-wrap {
-  height: initial;
-}
-
-.opbox .opbox-code {
-  font-size: 80%;
-}
-
-.opbox .opbox-header {
-  border-bottom: 1px solid #e1e1e1;
-}
-
-.opbox .opbox-output .opbox-result {
-  font-family: monospace;
-}
-
 .ruby-code {
   margin-bottom: 2em;
   margin-top: 0;
+}
+
+pre.dark {
+  color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4
 }
