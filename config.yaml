@@ -10,13 +10,14 @@ MetaDataFormat: "yaml"
 permalinks:
   post: "/blog/:year/:month/:day/:title/"
   zen: "/zen/:title"
-theme: hyde-x
+theme: "hyde"
 menu:
   main:
     - Name: Zen
       URL: "/zen/"
 params:
   home: "Blog Index"
+  locale: "en-US"
 
   # Used when a given page doesn't set its own.
   defaultDescription: ""
@@ -25,14 +26,14 @@ params:
   # Changes sidebar background and link/accent colours.
   # See below for more colour options.
   # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-  theme: "theme-base-0b"
+  themeColor: "theme-base-0b"
 
   # Select a syntax highight.
   # Check the static/css/highlight directory for options.
   highlight: "sunburst"
 
   # Displays under the author name in the sidebar, keep it short.
-  tagline: "Codesmithing by day. Airsculpting by night."
+  description: "Codesmithing by day. Airsculpting by night."
 
   # Metadata used to drive integrations.
   # googleAuthorship: "TristanGomez"
