@@ -6,6 +6,7 @@ Braintree has just recently released [v3 of their Javascript SDK](https://www.br
 
 <!--more-->
 For the impatient:
+
 * the code for this tutorial (rails 4.2) can be found on Github.
 * a lot of the example code was from the official [Braintree developer's documentation](https://developers.braintreepayments.com/start/overview).
 

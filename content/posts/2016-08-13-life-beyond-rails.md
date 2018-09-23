@@ -48,8 +48,6 @@ Then I thought, hey that's a challenge! So I did, and that was the small project
 
 ![Life Beyond Rails](https://s3-ap-southeast-1.amazonaws.com/hackworkplay-assets/rubyconfkl2016-page-006.resized.jpg)
 
-So that's it! It's proof that ruby is cross platform! We can now all go home and tell everyone we can also do mobile development. We just need to learn how to compile ruby using RubyMotion.
-
 So that's it! It's proof that ruby is cross platform! We can now tell everyone we can also do mobile development, we just need to learn how to compile ruby using RubyMotion.
 
 Right?
@@ -70,7 +68,7 @@ What does Voyager 2, your legacy Rails app, and your hackathon prototype have in
 
 ![Life Beyond Rails](https://s3-ap-southeast-1.amazonaws.com/hackworkplay-assets/rubyconfkl2016-page-008.resized.jpg)
 
-They're [dead end products](http://witforsale.com/dead-end-products/).
+They're [dead end products](https://www.witforsale.com/post/2016/06/09-dead-end-products/).
 
 When the Voyager 2 was made, they didn't intend to repair or update it after launch. If there was any glitch or malfunction, the only way to fix it was to launch another probe.
 

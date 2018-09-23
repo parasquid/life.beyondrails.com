@@ -27,9 +27,10 @@ puts square(256)
 # click on run below to execute the code
 {{< /rubycode >}}
 
-I've edited one of my [past articles]({{<ref "/post/2014-03-04-ruby-and-blocks.markdown">}}) to use `OpalBox` if you're interested in how it looks like as a method for instruction.
+I've edited one of my [past articles]({{< relref "posts/2014-03-04-ruby-and-blocks.markdown" >}}) to use `OpalBox` if you're interested in how it looks like as a method for instruction.
 
 Here's the javascript snippet that resizes the `textarea` to fit its content:
+
 ``` javascript
 var $targets = $(".ruby-code textarea")
 $targets.each(function() {
