@@ -1,0 +1,9 @@
+<script>
+$(function() {
+    $('.ruby-code').opalBox();
+  var $targets = $(".ruby-code textarea")
+  $targets.each(function() {
+    $(this).height(0).height(this.scrollHeight - $(this).css("font-size").replace('px','')).change();
+  })
+});
+</script>

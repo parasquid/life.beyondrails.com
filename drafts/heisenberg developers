@@ -1,0 +1,17 @@
+heisenberg developers
+
+Anonymous6:12 am
+Micromanagement denotes multiple things:
+- Need to sync frequently = sign that people is not on the same page. Compensates for lack of planning, estimation and communication skills.
+- Need to verify progress frequently = lack of trust. Compensates for people that are not honest about being blocked.
+
+If you want to end this situation: update your tickets with details about your progress. If someone asks you for an update, refer them to the ticket. If they have a question, refer them to the ticket. Keep all the project management discussions on the issue tracker.
+
+Then, compare, what is better:
+- fixing a problem with time (preventive) or fixing a problem with no time, customer and reputation impact (reactive).
+- slower at first but sustained development speed and scalable team growth (controlled technical debt) or faster at first but decaying development speed with developer/bottlenecks (uncontrolled technical debt).
+- to invest in your employees and lead on consensus, or keep an army of demoralized people and lead on fear and authoritarism.
+
+Reply
+
+http://mikehadlow.blogspot.cl/2014/06/heisenberg-developers.html?m=1

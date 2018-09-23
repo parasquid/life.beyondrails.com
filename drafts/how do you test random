@@ -1,0 +1,5 @@
+how do you test random
+
+You don't.
+
+The focus of the test is to ensure that a number is generated, rather than the way it is generated.

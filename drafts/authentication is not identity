@@ -1,0 +1,32 @@
+Authentication is not Identity
+
+I was working on a project where we had to allow a mobile user to be able to take a quiz or a survey, recommend them a free product, and allow them to use that product without having to create a user account. In other words, we needed to be able to delay the user accounut creation for as long as necessary, at least until they start purchasing a product or start participating in the discussions.
+
+The user can create an account anytime they want to if they'd like to be able to access the product in a different device. The user account also enables saving the user state; their progress in a product gets updated in the other devices they have, similar to how Kindle tracks your book progress.
+
+
+I had a difficult time articulating the reasons why identity and authentication are two different concepts, and that we won't be breaking anything by divorcing the two from each other -- after all we've been using the two different roles separately in different scenarios; they just happen to be living in the same applicatioon and accessed from the same class.
+
+After searching around trying to compile concepts and ideas that other people have written (I was sure this was a common misconception and that other people must have already written about this) I came upon this article: https://technet.microsoft.com/en-us/library/cc512578.aspx
+
+It gave me a handle of the concepts that have been floating around in mind, and allowed me to grasp the reasons behind why I felt something was off in combining identity and authentication.
+
+Most of the time (at least in the beginning of an app's lifetime) there is a one to one relationship between the identity and it's authentication.
+
+Just because there's a one to one relatioonship between the two doesn't mean you should immediately make both of them interdependent. You can definitely trade off flexibility for speed by going this route, just like you can trade flexibility for speed when you call your models directly from your controllers instead of abstracting awat the domain logic in a different object.
+
+Why is the conlfation between identity and authentication so persistent? I think it's because our community (the Ruby and Rails community mostly) is too young that we need to explain a concept with a simple and easy enough to understand article.
+
+the article doesn't have time to go into the advanced architecture topics like separation of concerns,; otherwise it will bore and lose the reader and take away from the core of the message.
+
+Tutorials will usually combine the user identity and authentication into a single model http://railscasts.com/episodes/241-simple-omniauth?view=asciicast I'm not saying this is bad; the article definitely drives home the point that with OmniAuth it's easy to add OAuth authentication to your app. If you needed to make a quick proof of concept of an app with facebook login, or show your students how to create a user account without having to go through the whole user/password creation process, this is a great way to show that.
+
+Imagine how the article would have been if it was written with identity separated from authentication.
+
+You might think that the conflation between identity and authentication is something new. After all, it was only recently that we're dealing with Facebook logins or a custom SSO solution for your app. It's surprising that the article I've referenced https://technet.microsoft.com/en-us/library/cc512578.aspx was actually written way back in 2006, and it is probably safe to assume that the concepts have been floating around even before it was crystallized in this article. It might even be that the author had been increasingly concerned with the problem of combining identity and authentication that he had to set aside some time to prepapre and write this article.
+
+Your username is public. Your password is private and your authentication. Your facebook account to Facebook is your identty, but to your application is your authentication. You're basically saying "I'm letting you in if Facebook says you are who you are."
+
+Idenity: Who are you?
+Authentication: How do I know you are who you say you are?
+Authorization: What can you do and what can't you do?
