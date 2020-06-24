@@ -35,4 +35,4 @@ Then you'll get three dropdowns; you should get the latest version, Ubuntu Linux
 There are a number of downloads to choose from; the one I need was the community client (but it's not labeled as such; you'll need to check the filename). After that it's just a matter of installing some dependencies like `libaio1` and `libtinfo5` and then installing the `.deb.` that was just downloaded.
 
 
-[1]:{{< relref "2014-03-04-ruby-and-blocks.markdown" >}}
+[1]:{{< relref "2020-06-15-advantages-of-using-docker-compose-in-your-projects.md" >}}
