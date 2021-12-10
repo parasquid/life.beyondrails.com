@@ -1,4 +1,10 @@
 ---
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
 contentdir: "content"
 layoutdir: "layouts"
 disqusShortname: "parasquid"
