@@ -3,7 +3,7 @@ date: 2016-01-03
 title: Opalbox—Run Ruby Code Inside Pages
 categories: [meta, opal]
 ---
-[Opal](http://opalrb.org/) is a Ruby to JavaScript compiler, and [OpalBox](https://github.com/Angelmmiguel/opalbox-jquery) is a `jQuery` plugin to easily create a textarea that can take ruby code and allow it to run.
+[Opal](http://opalrb.com/) is a Ruby to JavaScript compiler, and [OpalBox](https://github.com/Angelmmiguel/opalbox-jquery) is a `jQuery` plugin to easily create a textarea that can take ruby code and allow it to run.
 
 I just added OpalBox to this blog and it's been quite interesting. I've learned how to resize a `textarea` based on its content (you need javascript to do that because `CSS` just doesn't cut it) and I've added in a shortcode.
 
