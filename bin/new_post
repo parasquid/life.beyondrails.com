@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+export UID_GID="$(id -u):$(id -g)"
+exec docker run --rm -it --user $UID_GID -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.48 new posts/`date +%Y-%m-%d`-$1.md
