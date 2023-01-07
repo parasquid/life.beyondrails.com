@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+git submodule update --init --recursive
+git submodule update --recursive --remote
+exec docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.48 server -D
