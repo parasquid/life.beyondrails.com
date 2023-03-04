@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  default: &defaults
+    image: klakegg/hugo:0.48
+    volumes:
+      - ./:/src
+    working_dir: /src
+
+  hugo:
+    <<: *defaults
+    profiles: ["dev"]
+
+  app:
+    <<: *defaults
+    ports:
+      - "1313:1313"
+    command: server -D --bind=0.0.0.0
+    tty: true
